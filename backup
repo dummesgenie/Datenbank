@@ -113,6 +113,7 @@
                                     
                               /* Definition eines einzelnen Bild-Blocks */
                               .image-block {
+                                    position: relative; 
                                     text-align: center; /* Zentriert den Text unter dem Bild */
                                     display: flex;
                                     flex-direction: column;
@@ -154,24 +155,24 @@
                                     <div class="image-columns">
                                           <div class="image-block">
                                                 <div class="image-block-title">Mehrere Kabel, <br>Mehrfach ummantelt, <br>Schlaufen unnötig lang</div>
-                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />                 
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />              
                                           </div>
                                           
                                           <div class="image-block">
                                                 <div class="image-block-title">Dünnes Kopfkabel mit max. notwendiger Länge</div>
-                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                           </div>
                                           
                               
                                           <div class="image-block">
                                                 <div class="image-block-title">ungünstige Kabelverlegung im SAB-Entfaltungsbereich</div>
-                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                           </div>
                                           
                                           
                                           <div class="image-block">
                                                 <div class="image-block-title">Gute Kabelverlegung seitlich am Kopf und nicht im SAB-Bereich</div>
-                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                           </div>
                                     </div>
                               </div> 
@@ -189,11 +190,11 @@
                               </div>
                               
                                     <div class="image-block">
-                                          <img width="100" height="90" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                           </div>
                                           
                                     <div class="image-block">
-                                          <img width="100" height="90" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                     </div>
 
                                     </div>
@@ -214,7 +215,68 @@
                   Auf den folgenden Seiten sind Beispiele für „Airbagmodul-Oberkanten“ und „senkrechte Mittellinien“ und deren Besonderheiten beschrieben.<br>
 
                   <h4>Beispiel 1: Airbag in Gehäuse unter Radlaufverkleidung mit frontalem Austritt</h4>
-                        <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div>
+
+                        <style>
+
+                        /* Stil für den Pfeil und Text Block */
+                        .faltraumpaket-hinweis {
+                              position: absolute; 
+                              display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
+                              align-items: flex-start; /* Elemente oben ausrichten */
+                              margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
+                              margin-top: -200px;
+                              padding-left: 500px; /* Ein bisschen Einrückung vom linken Rand */
+                        }
+
+                        /* Container für den Pfeil */
+                        .pfeil-container {
+                              flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
+                              width: 30px; /* Feste Breite für den Pfeil */
+                        }
+
+                        /* Der rote Pfeil */
+                        .pfeil {
+                              font-size: 2em;
+                              color: red;
+                              display: block;
+                              transform: rotate(45deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
+                        }
+
+                        /* Text-Container */
+                        .text-container {
+                              padding-left: 10px;
+                              line-height: 1.2;
+                        }
+
+                        /* Spezielle Formatierung für den obersten roten Text */
+                        .red-text {
+                              color: red;
+                              font-weight: bold;
+                              margin: 0;
+                              font-size: 1.1em;
+                        }
+
+                        /* Stil für den zweiten Text */
+                        .text-container p:last-child {
+                              margin: 0;
+                              font-size: 1em;
+                        } 
+                        </style>
+
+                        <div class="faltraumpaket-hinweis">
+                              <div class="pfeil-container">
+                                    <span class="pfeil">&#11015;</span> 
+                              </div>
+                              <div class="text-container">
+                                    <p class="red-text">Oberkante Faltpaket im Gehäuse,</p>
+                                    <p>Horizontale Linie an oberer Faltraumbegrenzung</p>
+                              </div>
+                        </div>
+
+                  
                   `},
                   { id: 'c3', cat: 'cat2', title: 'Kapitel 3', excerpt: 'Kategorie B Einführung', content: '<h2>Kapitel 3</h2><p>Inhalte für Kategorie B.</p>' }
             ],
