@@ -1,184 +1,396 @@
-<meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          
-          <title>Technische Dokumentation</title>
-          <style>
-          
-            /* Hier folgt der CSS-Code */
-              body {
-                  font-family: Arial, sans-serif;
-                  margin: 0;
-                  padding: 20px;
-                  background-color: #f4f4f4; /* Außenfarbe weiß*/
-              }
-              .container {
-                  /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
-                  display: flex;
-                  flex-direction: column;
-                  gap: 20px; /* Abstand zwischen den Hauptzeilen */
-              }
-              
-              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
-              .main-row {
-                  background-color: #e0e0e0; /* Das Hellgrau der Balken */
-                  padding: 20px;
-                  border-radius: 5px;
-                  display: flex;
-                  gap: 15px; /* Abstand zwischen den Spalten innerhalb der Zeile */
-                  align-items: flex-start; /* Elemente oben ausrichten */
-              }
-              
-              /* Die Info-Spalte (links) */
-              .info-column {
-                  flex: 0 0 250px; /* Feste Breite für die linke Spalte */
-                  padding-right: 15px;
-              }
-              .info-column h2 {
-                  font-size: 1.2em;
-                  /*background-color: yellow; */
-                  padding: 2px 5px;
-                  display: inline-block;
-                  margin-top: 0;
-                  margin-bottom: 5px;
-              }
-              .info-column p, .info-column ul {
-                  font-size: 0.9em;
-                  margin-top: 5px;
-                  margin-bottom: 0;
-                  padding-left: 20px; /* Einrückung für die Liste */
-              }
-              /* Die Bild-Spalten (rechts) */
-              .image-columns {
-                  flex: 1; /* Nimmt den restlichen Platz ein */
-                  display: flex;
-                  justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
-                  gap: 15px;
-              }
-              /* Definition eines einzelnen Bild-Blocks */
-              .image-block {
-                  text-align: center; /* Zentriert den Text unter dem Bild */
-                  display: flex;
-                  flex-direction: column;
-                  flex: 1; /* Macht alle Bild-Blöcke gleich breit */
-              }
-              
-              /* Die Überschrift über dem Bild */
-              .image-block-title {
-                  font-size: 0.8em;
-                  margin-bottom: 5px;
-                  height: 40px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
-                  display: flex;
-                  align-items: center; /* Vertikale Zentrierung */
-                  justify-content: center; /* Horizontale Zentrierung */
-                  text-align: center;
-              }
-              
-              /* Der eigentliche Bild-Container */
-              .image-box {
-                  background-color: #004d99; /* Das Dunkelblau der Bilder */
-                  width: 100%;
-                  padding-bottom: 100%; /* Erzeugt ein quadratisches Feld */
-                  position: relative;
-                  border: 1px solid #333;
-              }
-              /* Stil für die Check- & X-Marken */
-              /*.check-mark, .cross-mark {
-                  font-size: 4em;
-                  font-weight: bold;
-                  position: absolute;
-                  top: 50%;
-                  left: 50%;
-                  transform: translate(-50%, -50%);
-                  line-height: 1;
-              }
-              .check-mark { color: limegreen; }
-              .cross-mark { color: red; }*/
-              
-              /* Spezielle Formatierung für das SAB-Feld (roter Rahmen im Bild) */
-              /*.sab-box {
-                  position: absolute;
-                  top: 60%;
-                  left: 50%;
-                  transform: translate(-50%, -50%);
-                  width: 40%;
-                  height: 40%;
-                  border: 2px solid red;
-                  text-align: center;
-                  font-size: 0.8em;
-                  color: white;
-                  line-height: 1.2;
-              }*/
-              /* Spezielle Zentrierung für den "SAB" Text */
-              /*.sab-label {
-                  position: absolute;
-                  bottom: 5px;
-                  right: 5px;
-                  color: red;
-                  font-weight: bold;
-              }*/
-          </style>
-      
-      <div class="container">
-        <div class="main-row">
-            
-            <div class="info-column">
-                <h2>Dummykabel</h2>
-                <p display: inline; padding: 2px 0;">Die Dummykabel sind immer so zu verlegen, dass keine Beeinflussung der Dummykinematik oder Luftsackentfaltung möglich ist.</p>
-            </div>
-            
-            <div class="image-columns">
-                
-              
-                <div class="image-block">
-                    <div class="image-block-title">Mehrere Kabel, Mehrfach ummantelt, Schlaufen unnötig lang</div>
-                    <div class="image-box">
-                    </div>
-                </div>
-                
-              
-                <div class="image-block">
-                    <div class="image-block-title">Dünnes Kopfkabel mit max. notwendiger Länge</div>
-                    <div class="image-box">
-                    </div>
-                </div>
-                
-               
-                <div class="image-block">
-                    <div class="image-block-title">ungünstige Kabelverlegung im SAB-Entfaltungsbereich</div>
-                    <div class="image-box">
-                        <div class="sab-box"></div> 
-                    </div>
-                </div>
-                
-                <div class="image-block">
-                    <div class="image-block-title">Gute Kabelverlegung seitlich am Kopf und nicht im SAB-Bereich</div>
-                    <div class="image-box">
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="main-row">
-        
-        <div class="info-column">
-            <h2>Dummy-Tape</h2>
-            <p>Das Dummy-Tape zur Abdeckung des Kopfplatten-Spaltes sollte folgende Eigenschaften haben:</p>
-            <ul>
-                <li>glattes PVC Isolierband</li>
-                <li>ca. 10mm breit</li>
-            </ul>
-        </div>
-        
-        <div class="image-columns" style="flex: 0 0 50%;"> <div class="image-block">
-                <div class="image-block-title"></div> <div class="image-box">
-                </div>
-            </div>
-            
-          <div class="image-block">
-            <div class="image-box">
-              <img src="frame.png" style = "width:100%; height:100%; object-fit:contain;"> 
-            </div>
-          </div>
+<!doctype html>
+<html lang="de">
+<head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Wiki TWG</title>
+      <style>
+            :root{--bg:#f7f8fb;--card:#fff;--accent:#0b74de;--muted:#6b7280}
+            *{box-sizing:border-box}
+            body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+            header{background:linear-gradient(90deg,#0b74de22,transparent); padding:18px 24px; display:flex;align-items:center;gap:12px}
+            header h1{font-size:18px;margin:0}
+            .container{max-width:980px;margin:22px auto;padding:0 18px}
+            .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+            .grid{display:grid;gap:12px}
+            .home-grid{grid-template-columns:1fr 320px}
+            .category-list button{display:block;width:100%;text-align:left;padding:12px;border-radius:8px;border:1px solid #eef2ff;background:#fff;margin-bottom:8px}
+            .chapter-list{display:flex;flex-direction:column;gap:8px}
+            .chapter-item{padding:10px;border-radius:8px;border:1px solid #eee;cursor:pointer}
+            .search{display:flex;gap:8px}
+            .search input{flex:1;padding:10px;border-radius:8px;border:1px solid #ddd}
+            nav{display:flex;gap:8px}
+            nav a{color:var(--accent);text-decoration:none;font-weight:600}
+            .meta{color:var(--muted);font-size:13px}
+            .diagram{border-radius:8px;padding:12px;border:1px dashed #e6eefc;background:#fbfdff}
+            footer{margin:26px 0;color:var(--muted);font-size:13px;text-align:center}
+            @media (max-width:880px){.home-grid{grid-template-columns:1fr} .container{padding:12px}}
+      </style>
+</head>
+<body>
+      <header>
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden>
+            <rect width="24" height="24" rx="6" fill="#0b74de" />
+            <text x="12" y="16" font-size="11" fill="white" text-anchor="middle" font-family="Arial">W</text>
+            </svg>
+            <h1>Einsetzprozedur gemäß TWG – empfohlene Vorgehensweise</h1>
+            <nav style="margin-left:auto">
+                  <a href="#" onclick="goTo('home');return false">Start</a> ·
+                  <a href="#" onclick="goTo('info');return false">Info über die App</a> ·
+                  <a href="#" onclick="goTo('faq');return false">FAQ</a>
+            </nav>
+      </header>
 
-        </div>
-    </div>`    
+<main class="container">
+      <div id="app"></div>
+      <footer class="meta">Diese Demo speichert Daten lokal im Browser (kein Server). Weiterentwicklung läuft! Bitte Feedback abgeben. </footer>
+</main>
+
+<script>
+      // -----------------------------
+      // DATEN: hier pflegst du Kapitel/Kategorien
+      // -----------------------------
+      const DATA = {
+            categories: [
+                  { id: 'cat1', title: 'Generelle Vorgehensweise'},
+                  { id: 'cat2', title: 'Kategorie B' }
+      ],
+
+
+            chapters: [
+                  { id: 'c0', cat: 'cat1', title: 'Versuchsdurchführung', excerpt: ' ', 
+                  content: 'Die Prüf-Positionen nach TWG werden, wo vorgeschrieben, immer als Kombiversuche (FeAB/SAB) durchgeführt. Zur Detailanalyse können auch SAB only bzw. FeAB only Versuche durchgeführt werden.' + 
+                  ' Abschließend muss jedoch die Prüf-Position mit Kombiversuchen bestätigt werden.' +
+                  '<br> <br> Aufgrund moderner Fahrzeugbedingungen lassen sich nicht immer alle TWG-Einsetz-Anforderungen erfüllen oder es entstehen Interpretationsfragen.' +
+                  ' In solchen Fällen sollte zur Entscheidung des Weges das definierte Versuchsziel im Vordergrund stehen.'+
+                  '<br> <br> Sollte mehr als eine Möglichkeit der Interpretation existieren, gibt es zwei mögliche Vorgehensweisen:' +
+                  '<ol>' +
+                  '<li>Beurteilung der Varianten und Festlegung einer Worst case Variante, die getestet wird.</li>'+
+                  '<li>Prüfung mehrerer Positionier-Varianten in der Entwicklungsphase mit anschließender Worst Case Definition'+
+                  '</ol>'},
+
+                  {id: 'c1', cat: 'cat1', title: 'Dummy', excerpt: ' ', 
+                        content: `
+                        <style>                                                 
+                              .container {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 20px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 15px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 50px;
+                              }
+                              .info-column h2 { /*Überschriften Dummykabel und -tape*/
+                                    font-size: 1.2em;
+                                    padding: 2px 5px;
+                                    display: inline-block;
+                                    margin-top: 0;
+                                    margin-bottom: 0px;
+                              }
+                              
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns {
+                                    flex: 1; /* Nimmt den restlichen Platz ein */
+                                    display: flex;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 1px;
+                                    vertical-align: middle;
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block {
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title {
+                                    font-size: 0.8em;
+                                    margin-bottom: 5px;
+                                    height: 70px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    justify-content: space-between; /* Horizontale Zentrierung */
+                                    text-align: center;
+                                    
+                              }
+                              <style>
+                                    .info-column p, .info-column ul {
+                                                font-size: 0.9em;
+                                                margin-top: 5px;
+                                                margin-bottom: 0;
+                                                padding-left: 10px; /* Einrückung für die Liste */
+                                          }
+                              </style>
+                              
+                        </style>
+                        
+                        <div class="container">
+                              <div class="main-row">
+                                    
+                                    <div class="info-column">
+                                    <h2>Dummykabel</h2>
+                                    <p display: inline; padding: 2px 0;">Die Dummykabel sind immer so zu verlegen, dass keine Beeinflussung der Dummykinematik oder Luftsackentfaltung möglich ist.</p>
+                                    </div>
+
+
+                                    <div class="image-columns">
+                                          <div class="image-block">
+                                                <div class="image-block-title">Mehrere Kabel, <br>Mehrfach ummantelt, <br>Schlaufen unnötig lang</div>
+                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />                 
+                                          </div>
+                                          
+                                          <div class="image-block">
+                                                <div class="image-block-title">Dünnes Kopfkabel mit max. notwendiger Länge</div>
+                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          </div>
+                                          
+                              
+                                          <div class="image-block">
+                                                <div class="image-block-title">ungünstige Kabelverlegung im SAB-Entfaltungsbereich</div>
+                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          </div>
+                                          
+                                          
+                                          <div class="image-block">
+                                                <div class="image-block-title">Gute Kabelverlegung seitlich am Kopf und nicht im SAB-Bereich</div>
+                                                <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          </div>
+                                    </div>
+                              </div> 
+
+                              <div class="main-row">
+                              
+                              
+                              <div class="info-column">
+                                    <h2>Dummy-Tape</h2>
+                                    <p>Das Dummy-Tape zur Abdeckung des Kopfplatten-Spaltes sollte folgende Eigenschaften haben:</p>
+                                    <ul>
+                                    <li>glattes PVC Isolierband</li>
+                                    <li>ca. 10mm breit</li>
+                                    </ul>
+                              </div>
+                              
+                                    <div class="image-block">
+                                          <img width="100" height="90" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                          </div>
+                                          
+                                    <div class="image-block">
+                                          <img width="100" height="90" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                                    </div>
+
+                                    </div>
+
+                        </div>`    
+
+                  },         
+                  { id: 'c2', cat: 'cat1', title: 'Kennzeichnungen am Sitz bzw. an den Verkleidungsteilen', excerpt: ' ', 
+                  content: ` 
+                  Folgende Markierungen müssen mit einer guten Kontrastfarbe eindeutig und dauerhaft aufgebracht werden:
+                  <ul>
+                        <li>Sitz-Mitte</li>
+                        <li>Heel-Placement Points</li>
+                        <li>Oberkannte des Airbagmoduls</li>
+                        <li>Senkrechte Mitte des Airbagmoduls</li>
+                  </ul>
+                  Die Ermittlung der Markierungen müssen zu Projektbeginn mit dem BTV abgestimmt und im Prüfbericht detailliert dokumentiert werden.<br>
+                  Auf den folgenden Seiten sind Beispiele für „Airbagmodul-Oberkanten“ und „senkrechte Mittellinien“ und deren Besonderheiten beschrieben.<br>
+
+                  <h4>Beispiel 1: Airbag in Gehäuse unter Radlaufverkleidung mit frontalem Austritt</h4>
+                        <img width="90" height="70" alt="Bild" src="https://github.com/user-attachments/assets/a800e049-57a0-41f1-bb02-4a2d2bee48e2" />
+                  `},
+                  { id: 'c3', cat: 'cat2', title: 'Kapitel 3', excerpt: 'Kategorie B Einführung', content: '<h2>Kapitel 3</h2><p>Inhalte für Kategorie B.</p>' }
+            ],
+            faq: [
+                  {q:'Wie benutze ich die App?', a:'Wähle auf der Startseite eine Kategorie und dann ein Kapitel.'},
+                  {q:'Wo werden Daten gespeichert?', a:'Aktuell lokal im Browser (keine Server).'}
+            ]
+      };
+
+// -----------------------------
+// Einfacher Router / Renderer
+// -----------------------------
+      const app = document.getElementById('app');
+
+      function goTo(page, payload){
+            if(page === 'home') renderHome();
+            if(page === 'info') renderInfo();
+            if(page === 'faq') renderFAQ();
+            if(page === 'chapter') renderChapter(payload);
+            if(page === 'category') renderCategory(payload);
+      }
+
+      // Start: Home
+      function renderHome(){
+            app.innerHTML = `
+                  <div class="grid home-grid">
+                        <div class="card">
+                              <h2>Willkommen /USER </h2>            
+                              <p class="meta">Wähle zuerst eine Kategorie, dann das Kapitel.</p>
+
+                              <div style="margin-top:12px;" class="search">
+                                    <input id="q" placeholder="Suchen... (z.B. Kapitelname)" />
+                                    <button onclick="search()">Suche</button>
+                              </div>
+
+                              <h3 style="margin-top:14px">Kategorien</h3>
+                              <div class="category-list" id="category-list"></div>
+
+                              <h3 style="margin-top:12px">Zuletzt angesehen</h3>
+                              <div id="recent" class="meta">— noch nichts</div>
+                        </div>
+
+                        <aside>
+                              <div class="card">
+                                    <h3>Quick‑Links</h3>
+                                    <div class="meta">Schnellzugriff auf Info & FAQ</div>
+                                    <div style="margin-top:12px"><button onclick="goTo('info')">Info</button> <button onclick="goTo('faq')">FAQ</button></div>
+                              </div>
+
+                              <div class="card" style="margin-top:12px">
+                                    <h3>Kurze Kapitelübersicht</h3>
+                                    <div id="chap-preview" class="chapter-list"></div>
+                              </div>
+                        </aside>
+                  </div>
+            `;
+
+            const cl = document.getElementById('category-list');
+            DATA.categories.forEach(cat=>{
+                  const btn = document.createElement('button');
+                  btn.textContent = cat.title;
+                  btn.onclick = ()=> goTo('category', cat.id);
+                  cl.appendChild(btn);
+            });
+
+            const cp = document.getElementById('chap-preview');
+            DATA.chapters.slice(0,5).forEach(ch=>{
+                  const el = document.createElement('div'); el.className='chapter-item'; el.textContent = ch.title + ' — ' + ch.excerpt;
+                  el.onclick = ()=> goTo('chapter', ch.id);
+                  cp.appendChild(el);
+            });
+
+            // show recent from localStorage
+            const recent = JSON.parse(localStorage.getItem('recent')||'[]');
+            document.getElementById('recent').textContent = recent.length? recent.map(id=>DATA.chapters.find(c=>c.id===id)?.title||id).join(', '): '— noch nichts';
+
+            // wire search enter
+            const q = document.getElementById('q'); q.addEventListener('keydown', (e)=>{ if(e.key==='Enter') search(); });
+      }
+
+      function renderCategory(catId){
+            const cat = DATA.categories.find(c=>c.id===catId);
+            const chapters = DATA.chapters.filter(ch=>ch.cat===catId);
+            app.innerHTML = `
+                  <div class="card">
+                        <a href="#" onclick="goTo('home');return false">← Zurück</a>
+                        <h2>${cat.title}</h2>
+                        <p class="meta">${chapters.length} Kapitel</p>
+                        <div class="chapter-list" id="chap-list"></div>
+                  </div>
+            `;
+            const list = document.getElementById('chap-list');
+            chapters.forEach(ch=>{
+                  const el = document.createElement('div'); el.className='chapter-item'; el.innerHTML = `<strong>${ch.title}</strong><div class='meta'>${ch.excerpt}</div>`;
+                  el.onclick = ()=> goTo('chapter', ch.id);
+                  list.appendChild(el);
+            });
+      }
+
+      function renderChapter(chId){
+            const ch = DATA.chapters.find(c=>c.id===chId);
+            if(!ch){ app.innerHTML='<div class="card">Kapitel nicht gefunden</div>'; return }
+            // save recent
+            let recent = JSON.parse(localStorage.getItem('recent')||'[]');
+            recent = [chId, ...recent.filter(x=>x!==chId)].slice(0,6);
+            localStorage.setItem('recent', JSON.stringify(recent));
+
+            app.innerHTML = `
+                  <div class="card">
+                        <a href="#" onclick="goTo('home');return false">← Start</a>
+                        <h2>${ch.title}</h2>
+                        <div class="meta">Kategorie: ${DATA.categories.find(c=>c.id===ch.cat)?.title||'-'}</div>
+                        <div style="margin-top:14px">${ch.content}</div>
+                  </div>
+            `;
+      }
+
+      function renderInfo(){
+            app.innerHTML = `
+                  <div class="card">
+                        <a href="#" onclick="goTo('home');return false">← Zurück</a>
+                        <h2>Info — Was kann die App?</h2>
+                        <p>
+                        <h3>Vorwort </h3>
+                        In der „RECOMMENDED PROCEDURES FOR EVALUATING OCCUPANT INJURY RISK FROM DEPLOYING SIDE AIRBAGS”, prepared by the Side Airbag Out-of-Position Injury Technical Working Group, 
+                        im Folgenden kurz “TWG” genannt, werden die verschiedenen OoP Prüf-Positionen beschrieben, dennoch ergeben sich in der täglichen Praxis häufig Fragestellungen, die in der TWG nicht 
+                        final oder eindeutig beantwortet werden.
+                        Diese Präsentation beschreibt eine abgestimmte Vorgehensweise für das Einsetzen der Dummys in den verschiedenen Prüfpositionen für alle BAUM Projekte.
+                        </p>
+                        <ul>
+                              <li>Kategorien & Kapitel (statisch per JavaScript)</li>
+                              <li>Suche, Kapitelansicht mit Text, Diagrammen, Tabellen & Bildern</li>
+                              <li>FAQ Bereich und Info‑Seite</li>
+                              <li>Lokale Speicherung of 'Zuletzt angesehen'</li>
+                        </ul>
+                        <p class="meta">Hinweis: Für echte Produktion benötigst du ein Backend + Datenbank. Diese Version ist lokal / statisch.</p>
+                  </div>
+            `;
+      }
+
+      function renderFAQ(){
+            app.innerHTML = `
+                  <div class="card">
+                        <a href="#" onclick="goTo('home');return false">← Zurück</a>
+                        <h2>FAQ</h2>
+                        <div id="faq-list"></div>
+                  </div>
+            `;
+      const fl = document.getElementById('faq-list');
+            DATA.faq.forEach(f=>{
+                  const q = document.createElement('div'); q.innerHTML = `<strong>${f.q}</strong><div class='meta'>${f.a}</div>`; q.style.marginBottom='10px'; fl.appendChild(q);
+            });
+      }
+
+      function search(){
+            const q = document.getElementById('q').value.trim().toLowerCase();
+            if(!q) return renderHome();
+            const hits = DATA.chapters.filter(c=> (c.title + ' ' + c.excerpt + ' ' + (c.content||'')).toLowerCase().includes(q));
+            app.innerHTML = `
+                  <div class="card">
+                        <a href="#" onclick="goTo('home');return false">← Zurück</a>
+                        <h2>Suche: ${q}</h2>
+                        <div id="results"></div>
+                  </div>
+      `;
+      const results = document.getElementById('results');
+      if(!hits.length){ results.innerHTML = '<p class="meta">Keine Treffer</p>'; return }
+      hits.forEach(h=>{
+            const el = document.createElement('div'); el.className='chapter-item'; el.innerHTML = `<strong>${h.title}</strong><div class='meta'>${h.excerpt}</div>`;
+            el.onclick = ()=> goTo('chapter', h.id);
+            results.appendChild(el);
+      });
+      }
+
+      // init
+      renderHome();
+      </script>
+</body>>
+</html>
