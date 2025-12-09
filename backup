@@ -53,7 +53,7 @@
       const DATA = {
             categories: [
                   { id: 'cat1', title: 'Generelle Vorgehensweise'},
-                  { id: 'cat2', title: 'Kategorie B' }
+                  { id: 'cat2', title: 'Sitz-integrierte Seitenairbags' }
       ],
             chapters: [
                   { id: 'c0', cat: 'cat1', title: 'Versuchsdurchführung', excerpt: ' ', 
@@ -200,8 +200,8 @@
                         </div>`    
 
                   },         
-                  { id: 'c2', cat: 'cat1', title: 'Kennzeichnungen am Sitz bzw. an den Verkleidungsteilen', excerpt: ' ', 
-                  content: ` 
+                  {id: 'c2', cat: 'cat1', title: 'Kennzeichnungen am Sitz bzw. an den Verkleidungsteilen', excerpt: ' ', 
+                        content: ` 
                   Folgende Markierungen müssen mit einer guten Kontrastfarbe eindeutig und dauerhaft aufgebracht werden:
                   <ul>
                         <li>Sitz-Mitte</li>
@@ -212,8 +212,9 @@
                   Die Ermittlung der Markierungen müssen zu Projektbeginn mit dem BTV abgestimmt und im Prüfbericht detailliert dokumentiert werden.<br>
                   Auf den folgenden Seiten sind Beispiele für „Airbagmodul-Oberkanten“ und „senkrechte Mittellinien“ und deren Besonderheiten beschrieben.<br>
 
-                  <h4>Beispiel 1: Airbag in Gehäuse unter Radlaufverkleidung mit frontalem Austritt</h4>
+                  <h4>Beispiel 1: Airbag in <mark>MEGAPHON</mark> mit frontalem Austritt</h4>
                         <div class="image-block">
+                              Bild Fahrzeug mit <mark>BARSCH</mark> und Moduloberkante frontal<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div>
 
@@ -278,6 +279,7 @@
                   
 
                         <div class="image-block">
+                              Bild Fahrzeug mit <mark>BARSCH</mark> und Moduloberkante Seite<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div>      
                         
@@ -334,14 +336,14 @@
                               </div>
                               <div class="text-container_2">
                                     <p class="blue-text">Senkrechte Modulmitte</p>
-                                    <p>Bei frontal nach vorne austretenden Seitenairbags <br>aus der Sitz-Lehne oder der 
-                                          Verkleidung <br>(z.B. Radlaufverkleidung) ergibt sich <br>die senkrechte Modulmitte als <br>
+                                    <p>Bei frontal nach vorne austretenden <mark>BARSCH</mark> <br>aus der <mark>SCHAF</mark> oder der 
+                                          <mark>MEGAPHON</mark> <br> ergibt sich <br>die senkrechte Modulmitte als <br>
                                           Senkrechte durch den Schnittpunkt <br>der Mittellinien des Faltraumes in Längs-<br> und Querrichtung. <br>
-                                          Diese Linie muss im CAD ermittelt <br>und sicher auf den Sitz übertragen werden.</p>
+                                          Diese Linie muss im CAD ermittelt <br>und sicher auf den <mark>SCHAF</mark> übertragen werden.</p>
                               </div>
                         </div>
                         
-                  <h4>Beispiel 2: Airbag in Gehäuse im Sitz mit seitlich öffnendem Sitzspannteil</h4>
+                  <h4>Beispiel 2: Airbag in Gehäuse im <mark>SCHAF</mark> mit <mark>SCHARF</mark></h4>
                         <style>
                               .main-row_2 {
                                     display: flex;
@@ -443,11 +445,13 @@
 
                         <div class="main-row_2">
                               <div class="info-column_2">
+                                    Bild <mark>SCHAF</mark> mit <mark>BARSCH</mark> und Moduloberkante frontal<br>
                                     <img width="150" height="360" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />
                               </div>
 
 
                               <div class="image-columns_2">
+                                    Bild <mark>SCHAF</mark> mit <mark>BARSCH</mark> und Moduloberkante Seite<br>
                                     <img width="150" height="360" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />    
                               </div>
                         </div>
@@ -469,35 +473,38 @@
                               <div class="text-container_4">
                                     <p class="red-text">Horizontale Modulmitte</p>
                                     <p>Horizontale Linie an oberer Faltraumbegrenzung</p>
-                                    <p>Bei seitlich aus dem Sitz austretenden Seitenairbags wird aufgrund der 
-                                          Entfaltungskinematik und der davon abhängigen Dummybelastung eine „Ersatz-Mittellinie“ 
-                                          definiert. Der Ersatz für die senkrechte Modulmitte ergibt sich als Senkrechte durch die 
-                                          Mitte des kleinsten Abstandes der tragenden Sitzkontur im Bereich des Airbagmoduls zur 
-                                          gegenüberliegenden Kontur der Verkleidung. Der konstruktiv ermittelte Abstand (Mittellinie 
-                                          zu Türverkleidung/B-Säule) muss im Prüfbericht detailliert beschrieben und dokumentiert werden.</p>
-
+                                    <p>Bei Bei <mark>BARSCH</mark> austretenden <mark>BARSCH</mark> 
+                                          wird aufgrund der Entfaltungskinematik und der davon abhängigen 
+                                          <mark>FERNSEHER</mark> eine „Ersatz-Mittellinie“ definiert. Der
+                                           Ersatz für die senkrechte Modulmitte ergibt sich als Senkrechte durch die
+                                            Mitte des kleinsten Abstandes <mark>SCHAF</mark> zur gegenüberliegenden Kontur der <mark>MEGAPHON</mark>. 
+                                            Der konstruktiv ermittelte Abstand <mark>MEGAPHON</mark> muss im Prüfbericht detailliert beschrieben und dokumentiert werden.</p>
                               </div>
                         </div>
 
                         <div class="image-block">
+                              Bild <mark>SCHAF</mark> oben<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div>  
                   
-                  <h4>Beispiel 3: Airbag im Sitz mit Airbagaustritt in Fahrrichtung am Beispiel Frontsitz</h4>
+                  <h4>Beispiel 3: Airbag im <mark>SCHAF</mark> mit Airbagaustritt in Fahrrichtung am Beispiel <mark>SCHAF</mark></h4>
                         <div class="image-block">
+                              Bild <mark>SCHAF</mark> mit <mark>BARSCH</mark> und Moduloberkante frontal und Seite<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div> 
 
                         <div class="image-block">
+                              Bild <mark>SCHAF</mark> oben und Seite<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div> 
                   
-                  <h4>Beispiel 4: Airbag in der Türverkleidung am Beispiel Kopfairbag vorne (Cabrio/Roadster)</h4>
+                  <h4>Beispiel 4: Airbag in der <mark>MEGAPHON</mark> am Beispiel <mark>BÄR</mark> vorne <mark>AUTO</mark></h4>
                         <div class="image-block">
+                              Bild <mark>MEGAPHON</mark> und Moduloberkante<br>
                               <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                         </div> 
             `},
-                  { id: 'c3', cat: 'cat1', title: 'Definition der Ebenen', excerpt: ' ', 
+                  {id: 'c3', cat: 'cat1', title: 'Definition der Ebenen', excerpt: ' ', 
                   content: 
                   `<h2>Definition der Ebenen</h2> 
                         <style>               
@@ -512,6 +519,129 @@
                         <div class="bild-container">
                               <img width="661" height="523" alt="Definition der Ebenen" src="https://github.com/user-attachments/assets/b5f9118a-1fa2-429d-b625-c63c76711b02" />
                         </div>
+            `},
+                  {id: 'c4', cat: 'cat1', title: 'Grundeinstellungen', excerpt: ' ',
+                  content:`
+                  <h4><mark>SCHAF</mark></h4>
+                  <ul>
+                        <li>Die Grundeinstellung des <mark>SCHAFS</mark> erfolgt, insbesondere für die Zusatzfeatures gemäß der Konstruktionslage, die der <mark>SCHAF</mark>-Homologations-Zeichnung zu 
+                              entnehmen ist. </li>
+                        <li>Die <mark>SCHAF</mark> wird in die unterste Position gebracht, mögliche weitere Einstellungen erfolgen in Konstruktionslage.</li>
+                  </ul>
+
+                  <h4><mark>BALL</mark></h4>
+                  <ul>
+                        <li>Der <mark>BALL</mark>-Höhenversteller wird in die höchste Position gebracht, das <mark>BALL</mark> kann zur Vermeidung von Interaktion mit dem 
+                              <mark>BARSCH</mark> mit Klebeband an der <mark>MEGAPHONE</mark> befestigt werden. </li>
+                  </ul>
+
+                  <h4><mark>MEGAPHONE</mark></h4>
+                  <ul>
+                        <li>Alle <mark>MEGAPHONE</mark> auf der Seite der Testdurchführung müssen geschlossen sein, wenn nicht anders beschrieben.</li>
+                  </ul>
+
+                  `},
+                  {id:'c5', cat: 'cat1', title: 'Sitzeinstellung-Einstellanweisung', excerpt: ' ', content:`
+                  Der Ausgangspunkt der Sitzverstellung wird in der TWG, in der maximal hinteren und maximal unteren Position definiert. Zur sicheren Einstellung des Sitzes werden folgende Unterlagen in der letzten gültigen Ausführung benötigt:
+                  <ul>
+                        <li>Sitzverstelldiagramm des verwendeten Fahrzeugs mit Sitzreferenzpunkt (SRP)</li>
+                        <li>Homologationszeichnung des verwendeten Sitzes</li>
+                        <li>Einstellanweisung des SRP im Fahrzeug</li>
+                        <li><b>Informationen zu möglichen Zwangskinematiken über den Sitzverstellbereich (z.B. Lehne wird bei <mark>AUTO</mark> im hinteren Verstellbereich steiler gestellt)</b></li>
+                  </ul>
+
+                  Die hintere untere Position ergibt sich aus dem <mark>AUTO</mark> Sitz-Referenzpunkt (SRP), der zugehörigen Homologationszeichnung mit Einstelldaten des SRP sowie dem Sitzverstelldiagramm. <br>
+                 <br>
+                  <strong>Achtung!</strong> Die geforderte Ausgangs-Position des Sitzes kann sich durch verschiedene Sitzverstellfelder 
+                  zwischen links und rechts und durch versch. Sitzvarianten relativ zum Fahrzeug unterscheiden und muss deshalb für jeden 
+                  Sitz in der jeweiligen Prüfposition ermittelt und dokumentiert werden. OOP-Versuche auf der 1. Sitzreihe müssen bevorzugt auf 
+                  der <mark>AUTO</mark> durchgeführt werden. Wenn mit dem BTV eine Prüfungsdurchführung auch auf der <mark>AUTO</mark> abgestimmt wurde, 
+                  muss insbesondere die Vergleichbarkeit der Einsitzposition zwischen links und rechts gewährleistet und dokumentiert werden.
+                  <br>
+                  <ol>
+                        <li>Sitz auf SRP einstellen. Hierzu muss der Sitz gemäß den Vorgaben aus der Sitz-Homologationszeichnung eingestellt werden. 
+                        Die Einstellmaße in X und Z sind analog Homologationszeichnung zu dokumentieren. Der Lehnenwinkel wird zunächst vereinfacht 
+                        anhand des Hilfswinkels an der Lehnenrückseite auf den Konstruktionswinkel eingestellt. Der eingestellte Lehnenwinkel ist zu dokumentieren.<br> 
+                        <strong>ACHTUNG!</strong> Im weiteren Verlauf müssen alle Einstellmaße relativ zu den Einstellwerten des SRP ermittelt und dokumentiert werden.</li>
+                        <li>Vom SRP wird der Sitz im nächsten Schritt maximal nach unten (lediglich über die Sitzhöhenverstellung) auf den Punkt P5 im Sitzverstelldiagramm 
+                        verfahren. In diesem Schritt wird die Sitz-Längsverstellung nicht betätigt. Die Einstellmaße in X und Z sind zu dokumentieren und mit dem Sitzverstelldiagramm 
+                        zu vergleichen. Bei unterschiedlichen Maßen muss versucht werden die Maße aus dem Sitzverstelldiagramm einzustellen.</li>
+                        <li>Der Sitz wird anschließend mit der Sitzlängsverstellung auf den Punkt P6 im Sitzverstelldiagramm verfahren. Die Einstellmaße in X und Z sind zu 
+                        dokumentieren und mit dem Sitzverstelldiagramm zu vergleichen. Bei unterschiedlichen Maßen muss versucht werden die Maße aus dem Sitzverstelldiagramm einzustellen.
+                        <br><strong>ACHTUNG!</strong> Wenn der Sitz über eine Zwangskinematik verfügt, ist der hinterste Punkt anzufahren, bei der sich die Lehne noch unverändert in Konstruktionslage 
+                        befindet. Dieser Prozess und die daraus resultierende Ausgangsposition ist detailliert zu beschreiben und zu dokumentieren.</li>
+                        <li>In der, gemäß Sitzverstelldiagramm hintersten untersten Position muss nun die Einhaltung des Konstruktionswinkels der Lehne mit der SAE 
+                        J826 H-Punkt-Maschine kontrolliert und ggf. eingestellt werden. Das Ergebnis muss dokumentiert werden. Zusätzlich ist der Hilfswinkel an der Sitzrückseite 
+                        vor und nach der möglichen Einstellung mit der H-Punkt-Maschine zu dokumentieren.</li>
+                        <li>Muss der Sitz zur Erreichung des jeweiligen Versuchsziels verfahren werden, darf der Lehnenwinkel nicht mehr verändert werden. 
+                              Das Hilfsmaß des Lehnenwinkels an der Lehnenrückseite muss für die finale Prüfposition dokumentiert werden.</li>
+                  </ol>
+
+                  <h2 style="color: red">Sitzeinstellung - Beispiel </h2>
+                  <style>
+                              .main-row_3 {
+                                    display: flex;
+                                    gap: 15px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    padding: 20px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_3 {
+                                    flex: 0 0 450px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 50px;
+                                    margin-top: -30px;
+                              }
+                                                
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_3 {
+                                    flex: 0 0 300px; 
+                                    padding-right: 50px;
+                                    margin-top: -30px;
+                              }
+                                          
+                              .bild-container_2 {
+                                    display: flex;             /* Aktiviert Flexbox */
+                                    justify-content: left;   /* Zentriert Kinder horizontal (Hauptachse) */
+                                    align-items: left;       /* Zentriert Kinder vertikal (Querachse) */
+                                    margin-left: 15px;
+                                    
+                              }
+                                    
+                        </style>
+
+                        <div class="main-row_3">
+                              <div class="info-column_3">
+                                    Sitzverstellung Beispiel
+                                    <img width="300" height="160" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />
+                              </div>
+
+
+                              <div class="image-columns_3">
+                                    Lehnenwinkel Beispiel
+                                    <img width="300" height="160" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />    
+                              </div>
+                        </div>
+
+                        Beispiel Sitzverstellfeld
+                        <div class="bild-container_2">
+                                    <img width="300" height="160" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />   
+                        </div>
+     
+                  `},
+                  {id:'c6', cat: 'cat2', title: 'Position 3.3.3.1 Forward Facing Hybrid III 3 Year-Old Child Dummy on Booster Block', excerpt:'Passenger Positions with Seat-Mounted Airbags', 
+                  content: `
+                  <h3>Anwendungsbereich:</h3>
+                  Sitzintegierte Seitenairbags gemeinsam mit Fensterairbag (wenn vorhanden) <br>
+
+                  <h3 style="color:blue">Versuchsziel:</h3>
+                  <p style="color:blue">Maximale Interaktion zwischen Airbag und Kopf-Genick durch Ausrichtung des Genicks mit der Oberkante des Airbagmoduls im Sitz. </p>
+
+                  <h3>Positionierung:</h3>
+                  Der Dummy wird gemäß Vorgaben der TWG eingesetzt. Den Dummy auf der nach außen gerichteter Kante des Booster Blocks positionieren. 
+                  Obere Wirbelsäule in die Ausschuss-Richtung des Airbags positionieren. Den Kopf in neutraler Position zwischen Sitzpolster und Verkleidung positionieren.
+
+
                   `}
             ],
             faq: [
@@ -538,7 +668,7 @@
             app.innerHTML = `
                   <div class="grid home-grid">
                         <div class="card">
-                              <h2>Willkommen /USER </h2>            
+                              <h2>Willkommen <mark> /USER </mark> </h2>            
                               <p class="meta">Wähle zuerst eine Kategorie, dann das Kapitel.</p>
 
                               <div style="margin-top:12px;" class="search">
@@ -637,16 +767,9 @@
                         <h3>Vorwort </h3>
                         In der „RECOMMENDED PROCEDURES FOR EVALUATING OCCUPANT INJURY RISK FROM DEPLOYING SIDE AIRBAGS”, prepared by the Side Airbag Out-of-Position Injury Technical Working Group, 
                         im Folgenden kurz “TWG” genannt, werden die verschiedenen OoP Prüf-Positionen beschrieben, dennoch ergeben sich in der täglichen Praxis häufig Fragestellungen, die in der TWG nicht 
-                        final oder eindeutig beantwortet werden.
-                        Diese Präsentation beschreibt eine abgestimmte Vorgehensweise für das Einsetzen der Dummys in den verschiedenen Prüfpositionen für alle BAUM Projekte.
+                        final oder eindeutig beantwortet werden.<br><br>
+                        Diese <mark>App</mark> beschreibt eine abgestimmte Vorgehensweise für das Einsetzen der Dummys in den verschiedenen Prüfpositionen für alle <mark>BAUM</mark> Projekte.
                         </p>
-                        <ul>
-                              <li>Kategorien & Kapitel (statisch per JavaScript)</li>
-                              <li>Suche, Kapitelansicht mit Text, Diagrammen, Tabellen & Bildern</li>
-                              <li>FAQ Bereich und Info‑Seite</li>
-                              <li>Lokale Speicherung of 'Zuletzt angesehen'</li>
-                        </ul>
-                        <p class="meta">Hinweis: Für echte Produktion benötigst du ein Backend + Datenbank. Diese Version ist lokal / statisch.</p>
                   </div>
             `;
       }
