@@ -55,8 +55,6 @@
                   { id: 'cat1', title: 'Generelle Vorgehensweise'},
                   { id: 'cat2', title: 'Kategorie B' }
       ],
-
-
             chapters: [
                   { id: 'c0', cat: 'cat1', title: 'Versuchsdurchführung', excerpt: ' ', 
                   content: 'Die Prüf-Positionen nach TWG werden, wo vorgeschrieben, immer als Kombiversuche (FeAB/SAB) durchgeführt. Zur Detailanalyse können auch SAB only bzw. FeAB only Versuche durchgeführt werden.' + 
@@ -155,7 +153,7 @@
                                     <div class="image-columns">
                                           <div class="image-block">
                                                 <div class="image-block-title">Mehrere Kabel, <br>Mehrfach ummantelt, <br>Schlaufen unnötig lang</div>
-                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />              
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />            
                                           </div>
                                           
                                           <div class="image-block">
@@ -279,129 +277,242 @@
                   
                   
 
-                  <div class="image-block">
-                        <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
-                  </div>      
-                  
-                  <style>
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div>      
+                        
+                        <style>
 
-                  /* Stil für den Pfeil und Text Block */
-                  .faltraumpaket-hinweis_2 {
-                        position: absolute; 
-                        display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
-                        align-items: flex-start; /* Elemente oben ausrichten */
-                        margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
-                        margin-top: -200px;
-                        padding-left: 500px; /* Ein bisschen Einrückung vom linken Rand */
-                  }
-
-                  /* Container für den Pfeil */
-                        .pfeil-container_2 {
-                        flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
-                        width: 30px; /* Feste Breite für den Pfeil */
+                        /* Stil für den Pfeil und Text Block */
+                        .faltraumpaket-hinweis_2 {
+                              position: absolute; 
+                              display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
+                              align-items: flex-start; /* Elemente oben ausrichten */
+                              margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
+                              margin-top: -200px;
+                              padding-left: 500px; /* Ein bisschen Einrückung vom linken Rand */
                         }
 
-                  /* Der blaue Pfeil */
-                        .pfeil_2 {
-                              font-size: 2em;
-                              color: blue;
-                              display: block;
-                              transform: rotate(225deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
-                        }
-                  
-                        /* Text-Container */
-                        .text-container_2 {
-                              padding-left: 10px;
-                              line-height: 1.2;
-                        }
+                        /* Container für den Pfeil */
+                              .pfeil-container_2 {
+                              flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
+                              width: 30px; /* Feste Breite für den Pfeil */
+                              }
 
-                        /* Spezielle Formatierung für den obersten blauen Text */
-                        .blue-text {
-                              color: blue;
-                              font-weight: bold;
-                              margin: 0;
-                              font-size: 1.1em;
-                        }
-                  
-                        /* Stil für den zweiten Text */
-                        .text-container_2 p:last-child {
-                              margin: 0;
-                              font-size: 1em;
-                        }
-                  </style> 
+                        /* Der blaue Pfeil */
+                              .pfeil_2 {
+                                    font-size: 2em;
+                                    color: blue;
+                                    display: block;
+                                    transform: rotate(225deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
+                              }
+                        
+                              /* Text-Container */
+                              .text-container_2 {
+                                    padding-left: 10px;
+                                    line-height: 1.2;
+                              }
 
-                  <div class="faltraumpaket-hinweis_2">
-                        <div class="pfeil-container_2">
-                              <span class="pfeil_2">&#11015;</span> 
+                              /* Spezielle Formatierung für den obersten blauen Text */
+                              .blue-text {
+                                    color: blue;
+                                    font-weight: bold;
+                                    margin: 0;
+                                    font-size: 1.1em;
+                              }
+                        
+                              /* Stil für den zweiten Text */
+                              .text-container_2 p:last-child {
+                                    margin: 0;
+                                    font-size: 1em;
+                              }
+                        </style> 
+
+                        <div class="faltraumpaket-hinweis_2">
+                              <div class="pfeil-container_2">
+                                    <span class="pfeil_2">&#11015;</span> 
+                              </div>
+                              <div class="text-container_2">
+                                    <p class="blue-text">Senkrechte Modulmitte</p>
+                                    <p>Bei frontal nach vorne austretenden Seitenairbags <br>aus der Sitz-Lehne oder der 
+                                          Verkleidung <br>(z.B. Radlaufverkleidung) ergibt sich <br>die senkrechte Modulmitte als <br>
+                                          Senkrechte durch den Schnittpunkt <br>der Mittellinien des Faltraumes in Längs-<br> und Querrichtung. <br>
+                                          Diese Linie muss im CAD ermittelt <br>und sicher auf den Sitz übertragen werden.</p>
+                              </div>
                         </div>
-                        <div class="text-container_2">
-                              <p class="blue-text">Senkrechte Modulmitte</p>
-                              <p>Bei frontal nach vorne austretenden Seitenairbags <br>aus der Sitz-Lehne oder der 
-                                    Verkleidung <br>(z.B. Radlaufverkleidung) ergibt sich <br>die senkrechte Modulmitte als <br>
-                                    Senkrechte durch den Schnittpunkt <br>der Mittellinien des Faltraumes in Längs-<br> und Querrichtung. <br>
-                                    Diese Linie muss im CAD ermittelt <br>und sicher auf den Sitz übertragen werden.</p>
+                        
+                  <h4>Beispiel 2: Airbag in Gehäuse im Sitz mit seitlich öffnendem Sitzspannteil</h4>
+                        <style>
+                              .main-row_2 {
+                                    display: flex;
+                                    gap: 15px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    padding: 20px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_2 {
+                                    flex: 0 0 450px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 50px;
+                                    margin-top: -30px;
+                              }
+                                                
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_2 {
+                                    flex: 0 0 300px; 
+                                    padding-right: 50px;
+                                    margin-top: -30px;
+                              }
+                                    
+                              .faltraumpaket-hinweis_3 {
+                                    position: absolute; 
+                                    display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
+                                    margin-top: -350px;
+                                    padding-left: 175px; /* Ein bisschen Einrückung vom linken Rand */
+                              }
+
+                              /* Container für den Pfeil */
+                              .pfeil-container_3 {
+                                    flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
+                                    width: 30px; /* Feste Breite für den Pfeil */
+                              }
+
+                              /* Der blue Pfeil */
+                              .pfeil_3 {
+                                    font-size: 2em;
+                                    color: blue;
+                                    display: block;
+                                    transform: rotate(45deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
+                              }
+
+                              /* Text-Container */
+                              .text-container_3 {
+                                    padding-left: 0px;
+                                    line-height: 1.2;
+                                    font-size: 
+                              }
+
+                              /* Spezielle Formatierung für den obersten blue Text */
+                              .blue-text {
+                                    color: blue;
+                                    font-weight: bold;
+                                    margin: 0;
+                                    font-size: 16px;
+                              }
+                              
+                              .faltraumpaket-hinweis_4 {
+                                    position: absolute; 
+                                    display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
+                                    margin-top: -350px;
+                                    padding-left: 650px; /* Ein bisschen Einrückung vom linken Rand */
+                              }
+
+                              /* Container für den Pfeil */
+                              .pfeil-container_4 {
+                                    flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
+                                    width: 30px; /* Feste Breite für den Pfeil */
+                              }
+
+                              /* Der rote Pfeil */
+                              .pfeil_4 {
+                                    font-size: 2em;
+                                    color: red;
+                                    display: block;
+                                    transform: rotate(45deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
+                              }
+
+                              /* Text-Container */
+                              .text-container_4 {
+                                    padding-left: 0px;
+                                    line-height: 1.2;
+                              }
+
+                              /* Spezielle Formatierung für den obersten roten Text */
+                              .red-text {
+                                    color: red;
+                                    font-weight: bold;
+                                    margin: 0;
+                                    font-size: 16px;
+                              }
+
+                        </style>
+
+                        <div class="main-row_2">
+                              <div class="info-column_2">
+                                    <img width="150" height="360" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />
+                              </div>
+
+
+                              <div class="image-columns_2">
+                                    <img width="150" height="360" alt="Blume" src="https://github.com/user-attachments/assets/4992a178-42f2-4ddd-9343-6e962bd2dde0" />    
+                              </div>
                         </div>
-                  </div>
+
+                        <div class="faltraumpaket-hinweis_3">
+                              <div class="pfeil-container_3">
+                                    <span class="pfeil_3">&#11015;</span> 
+                              </div>
+                              <div class="text-container_3">
+                                    Ersatz für die senkrechte Modulmitte
+                                    <p class="blue-text">senkrechte Modulmitte</p>
+                              </div>
+                        </div>
+
+                        <div class="faltraumpaket-hinweis_4">
+                              <div class="pfeil-container_4">
+                                    <span class="pfeil_4">&#11015;</span> 
+                              </div>
+                              <div class="text-container_4">
+                                    <p class="red-text">Horizontale Modulmitte</p>
+                                    <p>Horizontale Linie an oberer Faltraumbegrenzung</p>
+                                    <p>Bei seitlich aus dem Sitz austretenden Seitenairbags wird aufgrund der 
+                                          Entfaltungskinematik und der davon abhängigen Dummybelastung eine „Ersatz-Mittellinie“ 
+                                          definiert. Der Ersatz für die senkrechte Modulmitte ergibt sich als Senkrechte durch die 
+                                          Mitte des kleinsten Abstandes der tragenden Sitzkontur im Bereich des Airbagmoduls zur 
+                                          gegenüberliegenden Kontur der Verkleidung. Der konstruktiv ermittelte Abstand (Mittellinie 
+                                          zu Türverkleidung/B-Säule) muss im Prüfbericht detailliert beschrieben und dokumentiert werden.</p>
+
+                              </div>
+                        </div>
+
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div>  
                   
-            <h4>Beispiel 2: Airbag in Gehäuse im Sitz mit seitlich öffnendem Sitzspannteil</h4>
-                  <div class="image-block">
-                        <img width="200" height="450" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" /> 
-                  </div>
+                  <h4>Beispiel 3: Airbag im Sitz mit Airbagaustritt in Fahrrichtung am Beispiel Frontsitz</h4>
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div> 
 
-                  <style>
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div> 
+                  
+                  <h4>Beispiel 4: Airbag in der Türverkleidung am Beispiel Kopfairbag vorne (Cabrio/Roadster)</h4>
+                        <div class="image-block">
+                              <img width="500" height="250" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                        </div> 
+            `},
+                  { id: 'c3', cat: 'cat1', title: 'Definition der Ebenen', excerpt: ' ', 
+                  content: 
+                  `<h2>Definition der Ebenen</h2> 
+                        <style>               
+                              .bild-container {
+                                    display: flex;             /* Aktiviert Flexbox */
+                                    justify-content: center;   /* Zentriert Kinder horizontal (Hauptachse) */
+                                    align-items: center;       /* Zentriert Kinder vertikal (Querachse) */
+                              }
+                                    
+                        </style>
 
-                  /* Stil für den Pfeil und Text Block */
-                        .faltraumpaket-hinweis_3 {
-                        position: absolute; 
-                        display: flex; /* Richtet den Pfeil und den Text-Container nebeneinander aus */
-                        align-items: flex-start; /* Elemente oben ausrichten */
-                        margin-bottom: 20px; /* Abstand zum ersten grauen Balken */
-                        margin-top: -300px;
-                        padding-left: 200px; /* Ein bisschen Einrückung vom linken Rand */
-                  }
-
-                  /* Container für den Pfeil */
-                  .pfeil-container_3 {
-                  flex-shrink: 0; /* Verhindert, dass der Pfeil-Container schrumpft */
-                  width: 30px; /* Feste Breite für den Pfeil */
-                  }
-
-                  /* Der blaue Pfeil */
-                  .pfeil_3 {
-                        font-size: 2em;
-                        color: blue;
-                        display: block;
-                        transform: rotate(45deg); /* Optional: Passen Sie den Winkel an den Screenshot an */
-                  }
-
-                  /* Text-Container */
-                        .text-container_3 {
-                              padding-left: 10px;
-                              line-height: 1.2;
-                        }
-
-
-                  /* Spezielle Formatierung für den obersten blauen Text */
-                  .blue-text {
-                        color: blue;
-                        font-weight: bold;
-                        margin: 0;
-                        font-size: 1.1em;
-                  }
-
-                  </style> 
-
-                  <div class="faltraumpaket-hinweis_3">
-                  <div class="pfeil-container_3">
-                        <span class="pfeil_3">&#11015;</span> 
-                  </div>
-                  <div class="text-container_2">
-                        <p class="blue-text">Ersatz für Senkrechte Modulmitte</p>
-                  </div>
-                  </div>
-
-                  `},
-                  { id: 'c3', cat: 'cat2', title: 'Kapitel 3', excerpt: 'Kategorie B Einführung', content: '<h2>Kapitel 3</h2><p>Inhalte für Kategorie B.</p>' }
+                        <div class="bild-container">
+                              <img width="661" height="523" alt="Definition der Ebenen" src="https://github.com/user-attachments/assets/b5f9118a-1fa2-429d-b625-c63c76711b02" />
+                        </div>
+                  `}
             ],
             faq: [
                   {q:'Wie benutze ich die App?', a:'Wähle auf der Startseite eine Kategorie und dann ein Kapitel.'},
