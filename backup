@@ -130,14 +130,13 @@
                                     text-align: center;
                                     
                               }
-                              <style>
-                                    .info-column p, .info-column ul {
-                                                font-size: 0.9em;
-                                                margin-top: 5px;
-                                                margin-bottom: 0;
-                                                padding-left: 10px; /* Einrückung für die Liste */
-                                          }
-                              </style>
+                              
+                              .info-column p, .info-column ul {
+                                    font-size: 0.9em;
+                                    margin-top: 5px;
+                                    margin-bottom: 0;
+                                    padding-left: 10px; /* Einrückung für die Liste */
+                                    }
                               
                         </style>
                         
@@ -176,26 +175,24 @@
                               </div> 
 
                               <div class="main-row">
-                              
-                              
-                              <div class="info-column">
-                                    <h2>Dummy-Tape</h2>
-                                    <p>Das Dummy-Tape zur Abdeckung des Kopfplatten-Spaltes sollte folgende Eigenschaften haben:</p>
-                                    <ul>
-                                    <li>glattes PVC Isolierband</li>
-                                    <li>ca. 10mm breit</li>
-                                    </ul>
-                              </div>
-                              
-                                    <div class="image-block">
-                                          <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                    <div class="info-column">
+                                          <h2>Dummy-Tape</h2>
+                                          <p>Das Dummy-Tape zur Abdeckung des Kopfplatten-Spaltes sollte folgende Eigenschaften haben:</p>
+                                          <ul>
+                                          <li>glattes PVC Isolierband</li>
+                                          <li>ca. 10mm breit</li>
+                                          </ul>
+                                    </div>
+                                    
+                                          <div class="image-block">
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                                </div>
+                                                
+                                          <div class="image-block">
+                                                <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
                                           </div>
-                                          
-                                    <div class="image-block">
-                                          <img width="96" height="60" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
-                                    </div>
 
-                                    </div>
+                                          </div>
 
                         </div>`    
 
@@ -639,9 +636,258 @@
 
                   <h3>Positionierung:</h3>
                   Der Dummy wird gemäß Vorgaben der TWG eingesetzt. Den Dummy auf der nach außen gerichteter Kante des Booster Blocks positionieren. 
-                  Obere Wirbelsäule in die Ausschuss-Richtung des Airbags positionieren. Den Kopf in neutraler Position zwischen Sitzpolster und Verkleidung positionieren.
+                  Obere Wirbelsäule in die Ausschuss-Richtung des Airbags positionieren. Den Kopf in neutraler Position zwischen Sitzpolster und Verkleidung positionieren.<br>
+                  <style>
+                        .container_4 {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 100px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row_4 {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 20px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    margin-top: 10px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_4 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 10px;
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                                         
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_4 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    display: flex;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block_4 {
+                                    position: relative; 
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;
+                                    justify-content: space-between; /* Horizontale Zentrierung */
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title_4 {
+                                    font-size: 0.8em;
+                                    margin-top: -20px;
+                                    height: 30px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    text-align: center;      
+                              }
+                              
+                        </style>
+                        
+                        <div class="container_4">
+                              <div class="main-row_4">
+                                    
+                                    <div class="image-columns_4">
+                                          <div class="image-block_4">
+                                                <div class="image-block-title_4">TWG-Abbildung</div>
+                                                <img width="398" height="152" alt="3 3 3 1" src="https://github.com/user-attachments/assets/2f2b9ec7-ca6c-44e8-955e-a097528715d9" />           
+                                          </div>
+                                          
+                                          <div class="image-block_4">
+                                                <div class="image-block-title_4">Beispiel aus aktuellem Fahrzeug</div>
+                                                <img width="398" height="152" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
+                                    </div>
+                              </div> 
+                        </div>    
+                        
+                        <h3>Besonderheiten bei der Positionierung in der 1. Sitzreihe</h3>
+                        In der Startposition nach TWG, Kap 3.3.1 lässt sich der <mark>FERNSEHER</mark> u.U. <mark>VIELE FERNSEHER UND FEUER</mark> positionieren
+                        (z.B. wg. Kontakt Schulter mit <mark>MEGAPHON</mark>. In diesem Fall muss der <mark>SCHAF</mark> so weit nach vorne verfahren werden, bis die <mark>VIELE FERNSEHER UND FEUER</mark> 
+                        positioniert werden kann. Eine Veränderung der <mark>SCHAF</mark> erfolgt nicht. Eine Abweichung von der Startposition gemäß 3.3.3.1 muss begründet und zusammen mit
+                        der angepassten Prüfposition des <mark>SCHAF</mark> im Prüfbericht dokumentiert werden.<br>
+                        Sollten die Füße nach der endgültigen Positionierung des <mark>FERNSEHER</mark> nicht auf den Heel-Placement-Points positioniert werden können, muss die finale Position der Füße 
+                        im Prüfbericht dokumentiert werden. Eine Fixierung mit Tape ist nicht zulässig. Alle <mark>SCHAFE</mark> müssen in Konstruktionslage verbleiben.<br><br>
+                        <i>Bei <mark>VIELE SCHAFE</mark> - insbesondere bei dadurch instabiler Positionierung des <mark>BUTTER</mark> - kann der <mark>VIEL BUTTER</mark> verwendet werden. 
+                        Dies muss zu Projektbeginn definiert und im Prüfbericht entsprechend begründet und dokumentiert werden. Eine 
+                        <mark>BUTTER</mark> ist nicht sinnvoll, wenn dadurch das Versuchsziel nicht mehr sicher erfüllt werden kann.</i>
 
+                        <style>
+                        .container_5 {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 100px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row_5 {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 20px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    margin-top: 10px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_5 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 10px;
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                                         
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_5 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    display: flex;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block_5 {
+                                    position: relative; 
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;
+                                    justify-content: space-between; /* Horizontale Zentrierung */
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title_5 {
+                                    font-size: 0.8em;
+                                    margin-top: -20px;
+                                    height: 30px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    text-align: center;      
+                              }
+                              
+                        </style>
+                        
+                        <div class="container_">
+                              <div class="main-row_5">
+                                    
+                                    <div class="image-columns_5">
+                                          <div class="image-block_5">
+                                                <div class="image-block-title_4">Beispiel aus aktuellen Fahrzeugen</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />            
+                                          </div>
+                                          
+                                          <div class="image-block_5">
+                                                <div class="image-block-title_4"><mark>BUTTER </mark> nicht gedreht</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
 
+                                          <div class="image-block_5">
+                                                <div class="image-block-title_4"><mark>BUTTER </mark> gedreht</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
+                                    </div>
+                              </div> 
+                        </div>
+
+                        <h3>Besonderheiten bei der Positionierung in der 2. Sitzreihe</h3>
+                        Wenn aufgrund fehlender Einstellmöglichkeiten am <mark>SCHAF</mark> die geforderte Prüfposition nicht erreicht werden kann, muss dies begründet
+                        und zusammen mit der angepassten Prüfposition des <mark>FERNSEHER</mark> im Prüfbericht dokumentiert werden.<br><br>
+                        <i>Bei sehr <mark>WÄSCHEKLAMMER</mark> kann es passieren, dass der <mark>FERNSEHER</mark> relativ flach gelegt werden muss, um den
+                        <mark>FERNSEHER</mark> auf die Oberkante des <mark>BARSCH</mark> zu bringen. Dabei kann unter Umständen die <mark>WÄSCHEKLAMMER</mark> nicht gewährleistet werden, 
+                        was zum Erreichen des übergeordneten Versuchsziels akzeptabel wäre.</i>
+
+                        <style>
+                        .container_6 {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 100px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row_6 {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 20px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: flex-start; /* Elemente oben ausrichten */
+                                    margin-top: 10px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_6 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 10px;
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                                         
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_6 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    display: flex;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 60px;
+                                    vertical-align: middle;
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block_6 {
+                                    position: relative; 
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;
+                                    justify-content: space-between; /* Horizontale Zentrierung */
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title_6 {
+                                    font-size: 0.8em;
+                                    margin-top: -20px;
+                                    height: 30px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    text-align: center;      
+                              }
+                              
+                        </style>
+                        
+                        <div class="container_6">
+                              <div class="main-row_6">
+                                    
+                                    <div class="image-columns_6">
+                                          <div class="image-block_6">
+                                                <div class="image-block-title_6">Beispiel aus aktuellen Fahrzeugen</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />            
+                                          </div>
+                                          
+                                          <div class="image-block_6">
+                                                <div class="image-block-title_6"><mark>VIELE WÄSCHEKLAMMER UND FERNSEHER</mark></div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
+
+                                    </div>
+                              </div> 
+                        </div>
                   `}
             ],
             faq: [
