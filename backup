@@ -53,7 +53,8 @@
       const DATA = {
             categories: [
                   { id: 'cat1', title: 'Generelle Vorgehensweise'},
-                  { id: 'cat2', title: 'Sitz-integrierte Seitenairbags' }
+                  { id: 'cat2', title: 'Sitz-integrierte Seitenairbags' },
+                  { id: 'cat3', title: 'Tür- oder Seitenteil-integrierte Seitenairbags'}
       ],
             chapters: [
                   {id: 'c0', cat: 'cat1', title: 'Versuchsdurchführung', excerpt: ' ', 
@@ -2245,6 +2246,187 @@
                               </div> 
                         </div>
                   `}, 
+                  {id:'c12', cat: 'cat2', title: 'Position 3.3.3.7 SID IIs with instrumented Arm on ARmrest', excerpt:'Driver and Passenger Positions with Seat-Mounted or Door/Quarter Panel-Mounted Airbags', content:`
+                  <h3>Anwendungsbereich:</h3>
+                  Sitzintegrierte Seitenairbags gemeinsam mit Fensterairbag (wenn vorhanden)
+
+                  <h3 style="color:blue">Versuchsziel:</h3>
+                  <p style="color:blue">Maximale Interaktion des Oberarms mit dem Seitenairbagmodul</p>
+
+                  <h3>Positionierung:</h3>
+                  Sitz in Position Mitte/unten. Der Dummy wird gemäß Vorgaben der TWG eingesetzt. Dummy so weit nach außen positionieren, dass sich der Oberarm senkrecht und parallel zum Dummy-Torso befindet und der 
+                  Ellbogen auf der Armauflage liegt. Der Oberarm muss an der Türverkleidung anliegen. Ggf. kann das Becken mit einem Schaumkissen unterstützt bzw. geneigt werden. Der Unterarm soll möglichst kraftfrei (<5N) 
+                  auf der Armauflage liegen.
+                  
+                  <style>
+                        .container_22 {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 100px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row_22 {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 20px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: center; /* Elemente oben ausrichten */
+                                    margin-top: 10px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_22 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 10px;
+                                    gap: 60px;
+                                    vertical-align: middle;
+                                    margin-left: 50px;
+                              }
+                                                         
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_22 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    display: flex;
+                                    margin-left: 50px;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 60px;
+                                    vertical-align: middle;
+                                    
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block_22 {
+                                    position: relative; 
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;   
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title_22 {
+                                    font-size: 0.8em;
+                                    margin-top: -20px;
+                                    height: 30px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    text-align: center;      
+                              }
+                              
+                  </style>
+                        
+                        <div class="container_22">
+                              <div class="main-row_22">
+                                    
+                                    <div class="image-columns_22">
+                                          <div class="image-block_22">
+                                                <div class="image-block-title_22">TWG-Abbildung</div>
+                                                <img width="404" height="152" alt="3 3 3 7" src="https://github.com/user-attachments/assets/15a8c56e-4871-4f45-8ca4-6a75a63ad6cf" />
+                                          </div>
+                                          
+                                          <div class="image-block_22">
+                                                <div class="image-block-title_22">Beispiel aus aktuellem Fahrzeugen</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
+
+                                    </div>
+                              </div> 
+                        </div>
+                  
+                  <h3>Besonderheiten bei der Positionierung in der 1. Sitzreihe</h3>
+                  <strong>Achtung!</strong> Diese <mark>WÄSCHEKLAMMER</mark> muss für <mark>KRUG</mark> durchgeführt werden, es sei denn die <mark>FEUER UND SCHAFE</mark> sind identisch! 
+                  Der Nachweis muss im Protokoll dokumentiert werden.
+
+                  <h3>Besonderheiten bei der Positionierung in der 1. und 2. Sitzreihe</h3>
+                  Eine Veränderung der <mark>WÄSCHEKLAMMER</mark> erfolgt nicht.<br><br>
+                  Um die <mark>FERNSEHER</mark> entsprechend der Vorgabe zu erreichen kann es notwendig sein das <mark>FERNSEHER</mark> mit 
+                  einem <mark>BUTTER</mark> zu unterstützen bzw. das <mark>FERNSEHER</mark> zu neigen. <i>Das <mark>BUTTER</mark> sollte aber nur so dick sein, dass das <mark>FERNSEHER</mark> weiterhin Druck auf die 
+                  <mark>SCHAFE</mark> ausübt.</i><br>
+                  Die angewendete Maßnahme muss detailliert im Protokoll dokumentiert werden. 
+
+                  <style>
+                        .container_23 {
+                                    /* Grundlegendes Layout: zwei Hauptzeilen (Dummykabel und Dummy-Tape) */
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 100px; /* Abstand zwischen den Hauptzeilen */
+                              }
+                              
+                              /* Allgemeine Klasse für die grauen Balken (Hauptzeilen) */
+                              .main-row_23 {
+                                    background-color: #e0e0e0; /* Das Hellgrau der Balken */
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    gap: 20px; /* Abstand zwischen den Spalten innerhalb der Zeile */
+                                    align-items: center; /* Elemente oben ausrichten */
+                                    margin-top: 10px;
+                              }
+                              
+                              /* Die Info-Spalte (links) */
+                              .info-column_23 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    padding-right: 10px;
+                                    gap: 60px;
+                                    vertical-align: middle;
+                                    margin-left: 50px;
+                              }
+                                                         
+                              /* Die Bild-Spalten (rechts) */
+                              .image-columns_23 {
+                                    flex: 0 0 300px; /* Feste Breite für die linke Spalte */
+                                    display: flex;
+                                    margin-left: 50px;
+                                    justify-content: space-between; /* Gleichmäßigen Abstand zwischen den Bildern */
+                                    gap: 60px;
+                                    vertical-align: middle;
+                                    
+                              }
+                                    
+                              /* Definition eines einzelnen Bild-Blocks */
+                              .image-block_23 {
+                                    position: relative; 
+                                    text-align: center; /* Zentriert den Text unter dem Bild */
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex: 1; /* Macht alle Bild-Blöcke gleich breit */
+                                    align-items: center;   
+                              }
+                              
+                              /* Die Überschrift über dem Bild */
+                              .image-block-title_23 {
+                                    font-size: 0.8em;
+                                    margin-top: -20px;
+                                    height: 30px; /* Feste Höhe für Zeilenumbrüche, damit die Bilder auf gleicher Höhe starten */
+                                    display: flex;
+                                    align-items: center; /* Vertikale Zentrierung */
+                                    text-align: center;      
+                              }
+                              
+                  </style>
+                        
+                        <div class="container_23">
+                              <div class="main-row_23">
+                                    
+                                    <div class="image-columns_23">
+                                          <div class="image-block_23">
+                                                <div class="image-block-title_23">TWG-Abbildung</div>
+                                                <img width="404" height="152" alt="3 3 3 7" src="https://github.com/user-attachments/assets/15a8c56e-4871-4f45-8ca4-6a75a63ad6cf" />
+                                          </div>
+                                          
+                                          <div class="image-block_23">
+                                                <div class="image-block-title_23">Beispiel aus aktuellem Fahrzeugen</div>
+                                                <img width="250" height="150" alt="Blume" src="https://github.com/user-attachments/assets/951b94aa-af8e-4877-a64f-53e47d20952f" />   
+                                          </div>
+
+                                    </div>
+                              </div> 
+                        </div>
+                  `},
             ],
             faq: [
                   {q:'Wie benutze ich die App?', a:'Wähle auf der Startseite eine Kategorie und dann ein Kapitel.'},
